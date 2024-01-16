@@ -1,0 +1,36 @@
+{
+  "name": "frontend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fullcalendar/core": "^6.1.8",
+    "@fullcalendar/daygrid": "^6.1.8",
+    "@fullcalendar/vue3": "^6.1.8",
+    "@vueuse/core": "^10.4.1",
+    "aos": "^3.0.0-beta.6",
+    "axios": "^1.5.0",
+    "pinia": "^2.1.6",
+    "pinia-plugin-persistedstate": "^3.2.0",
+    "sweetalert2": "^11.6.13",
+    "vue": "^3.3.4",
+    "vue-easy-lightbox": "^1.16.0",
+    "vue-router": "^4.2.4",
+    "vue3-carousel": "^0.3.1",
+    "vue3-google-login": "^2.0.20",
+    "vue3-google-map": "^0.17.1",
+    "vue3-recaptcha2": "^1.8.0"
+  },
+  "devDependencies": {
+    "@types/aos": "^3.0.4",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "naive-ui": "^2.34.4",
+    "vfonts": "^0.0.3",
+    "vite": "^4.4.6",
+    "vue3-google-login": "^2.0.20"
+  }
+}
